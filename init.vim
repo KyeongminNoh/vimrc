@@ -1,0 +1,1 @@
+/home/kmnoh/.vim/vimrc
