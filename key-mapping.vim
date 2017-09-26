@@ -51,6 +51,11 @@
  endfunction
  " }}}
 
+ """ Cursor move
+ nnoremap <silent> <Space><Right> <End>
+ nnoremap <silent> <Space><Left> <Home>
+ nnoremap <silent> <Space><Up> <PageUp>
+ nnoremap <silent> <Space><Down> <PageDown>
 
  """ Windows {{{
  nnoremap <C-h> <C-w>h
