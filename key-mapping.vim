@@ -1,7 +1,5 @@
  " key-mapping.vim
  "
- " Maintained by Claud D. Park <posquit0.bj@gmail.com>
- " http://www.posquit0.com/
 
 
  " Map <leader> key
@@ -30,6 +28,8 @@
  " Switching search-highlighting off until next search
  nnoremap <silent> <Leader>/ :nohlsearch<CR>
 
+ " Toggle NerdTree 
+ nnoremap <silent> <F7> :NERDTreeToggle<CR> 
 
  " Quickly move current line above or below
  nnoremap <C-k><C-k> :<c-u>execute 'move -1-'. v:count1<cr>

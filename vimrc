@@ -1,11 +1,17 @@
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
-Plug 'jelera/vim-javascript-syntax'
-Plug 'pangloss/vim-javascript'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
+Plug 'edkolev/promptline.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'scrooloose/syntastic'
+" Plug 'jelera/vim-javascript-syntax'
+" Plug 'pangloss/vim-javascript'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'Raimondi/delimitMate'
-" Plug 'Valloric/YouCompleteMe'
 " Plug 'marijnh/tern_for_vim'
+Plug 'dracula/vim'
 call plug#end()
 "
 if filereadable(expand("\~/.vim/general.vim"))
